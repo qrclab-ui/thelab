@@ -1,0 +1,22 @@
+{
+  "config": {
+    "task": "memory",
+    "n_qubits": 4,
+    "depth": 3,
+    "encoder": "angle",
+    "scale": 1.5,
+    "res_type": "simple",
+    "enc_layers": 1,
+    "shots": 1024,
+    "backend": "ideal",
+    "mode": "reupload_k",
+    "reupload_k": 5,
+    "noise_prob": 0.0,
+    "bases": "Z",
+    "output_dir": "artifacts"
+  },
+  "metrics": {
+    "train_score": 0.5879899534762738,
+    "test_score": 0.5948150459030241
+  }
+}

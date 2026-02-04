@@ -1,0 +1,22 @@
+{
+  "config": {
+    "task": "parity",
+    "n_qubits": 6,
+    "depth": 3,
+    "encoder": "angle",
+    "scale": 1.0,
+    "res_type": "crot",
+    "enc_layers": 1,
+    "shots": 1024,
+    "backend": "ideal",
+    "mode": "reupload_k",
+    "reupload_k": 3,
+    "noise_prob": 0.0,
+    "bases": "Z",
+    "output_dir": "artifacts"
+  },
+  "metrics": {
+    "train_score": 0.999999999962779,
+    "test_score": 0.9747295731998782
+  }
+}

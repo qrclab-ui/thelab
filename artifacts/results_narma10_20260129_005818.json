@@ -1,0 +1,22 @@
+{
+  "config": {
+    "task": "narma10",
+    "n_qubits": 8,
+    "depth": 2,
+    "encoder": "angle",
+    "scale": 0.5,
+    "res_type": "crot",
+    "enc_layers": 1,
+    "shots": 1024,
+    "backend": "ideal",
+    "mode": "reupload_k",
+    "reupload_k": 11,
+    "noise_prob": 0.0,
+    "bases": "Z",
+    "output_dir": "artifacts"
+  },
+  "metrics": {
+    "train_score": 0.5894766171996175,
+    "test_score": 0.2623041996672535
+  }
+}
