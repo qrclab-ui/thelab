@@ -4,6 +4,8 @@
 The framework implements fixed, randomly initialized quantum reservoirs combined with classical readout layers, enabling temporal learning on near-term quantum devices.
 
 ---
+Original paper can be found here: https://arxiv.org/abs/2602.03522
+---
 
 ## 🚀 Features
 
